@@ -19,7 +19,10 @@ import {
     useEffect(() => {
       const user = JSON.parse(localStorage.getItem("userInfo"));
   
-      if (user) history.push("/chats");
+      if (user) {
+        history.push("/chats");
+        history.go(1);
+      }
     }, [history]);
   
     return (
