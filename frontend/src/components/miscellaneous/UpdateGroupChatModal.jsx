@@ -221,7 +221,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
 
           <ModalCloseButton />
           <ModalBody display="flex" flexDir="column" alignItems="center">
-            <Box w="100%" d="flex" flexWrap="wrap" pb={3}>
+            <Box w="100%" display="flex" flexWrap="wrap" pb={3} >
               {selectedChat.users.map((u) => (
                 <UserBadgeItem
                   key={u._id}
@@ -240,7 +240,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
               />
               <Button
                 variant="solid"
-                colorScheme="teal"
+                colorScheme="blue"
                 ml={1}
                 isLoading={renameloading}
                 onClick={handleRename}
