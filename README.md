@@ -47,4 +47,15 @@
 
 
 ## ALl Backend Routes:
-  - 
+  - HealthCheck : localhost:3000/api [GET]
+  - User Register : localhost:3000/api/user/ [POST]
+  - User Login : localhost:3000/api/user/login [POST]
+  - Get All Users : localhost:3000/api/user/ [GET]
+  - Access Chat : localhost:3000/api/chat/ [POST]
+  - Fetch Chat : localhost:3000/api/chat/ [GET]
+  - Create Group : localhost:3000/api/chat/group [POST]
+  - Rename Group : localhost:3000/api/chat/rename [PUT]
+  - Add To Group : localhost:3000/api/chat/groupadd [PUT]
+  - Remove From Group : localhost:3000/api/chat/groupremove [PUT]
+  - Send Message : localhost:3000/api/message/ [POST]
+  - All Messages : localhost:3000/api/message/:chatId [GET]
