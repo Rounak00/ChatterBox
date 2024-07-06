@@ -37,9 +37,12 @@
   <td><img src="./ScreenShots/GroupManipulation.jpg" alt="Group_Manipulation" /></td>
     <td><img src="./ScreenShots/CreateGroup.jpg" alt="Create_Group" /></td>
   </tr>
-    <tr>
- <td><img src="./ScreenShots/Chatting.jpg" alt="Chatting" /></td>
+  <tr>
+    <td><img src="./ScreenShots/Chatting.jpg" alt="Chatting" /></td>
     <td><img src="./ScreenShots/ChatPage.jpg" alt="ChatPage" /></td>
+  </tr>
+  <tr>
+    <td><img src="./ScreenShots/ErrorPage.png" alt="ErrorPage" /></td>
   </tr>
  </table>
 
