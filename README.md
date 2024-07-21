@@ -21,6 +21,7 @@
 - Add people in group
 - Remove people from group
 - Rename Group
+- PWA
   <br />
 ## Glimpses of ChatterBox:
 
