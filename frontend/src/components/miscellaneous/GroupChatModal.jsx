@@ -100,7 +100,7 @@ import {
           `/api/chat/group`,
           {
             name: groupChatName,
-            users: JSON.stringify(selectedUsers.map((u) => u._id)),
+            users: JSON.stringify(selectedUsers?.map((u) => u._id)),
           },
           config
         );
@@ -157,7 +157,7 @@ import {
                 />
               </FormControl>
               <Box w="100%" display="flex" flexWrap="wrap">
-                {selectedUsers.map((u) => (
+                {selectedUsers?.map((u) => (
                   <UserBadgeItem
                     key={u._id}
                     user={u}

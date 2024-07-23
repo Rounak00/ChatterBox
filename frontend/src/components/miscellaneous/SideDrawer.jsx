@@ -158,7 +158,7 @@ function SideDrawer() {
             </MenuButton>
             <MenuList pl={2}>
               {!notification.length && "No New Messages"}
-              {notification.map((notif) => (
+              {notification?.map((notif) => (
                 <MenuItem
                   key={notif._id}
                   onClick={() => {
@@ -210,7 +210,7 @@ function SideDrawer() {
             {loading ? (
               <ChatLoading />
             ) : (
-              searchResult.map((user) => (
+              searchResult?.map((user) => (
                 <UserListItem
                   key={user._id}
                   user={user}
