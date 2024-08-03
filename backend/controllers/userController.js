@@ -3,6 +3,7 @@ const User=require("../model/userModel");
 const generateToken=require("../config/generateToken");
 const CryptoJs=require("crypto-js")
 const CRYPTO_SECRET=require("../config/secret").Salt_Secret;
+
 const registerUser=asyncHandler(async(req,res)=>{
     const {name,email,password,pic}=req.body;
     
